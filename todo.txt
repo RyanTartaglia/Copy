@@ -1,0 +1,8 @@
+copy buttons
+styling
+sidebar <link rel="import" href="sidebar.html">
+        <?php include 'sidebar.php'; ?>
+mobile friendly
+google analytics
+adsense
+metadata stuff

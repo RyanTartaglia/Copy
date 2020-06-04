@@ -1,0 +1,23 @@
+/*
+Color Scheme
+Very light blue - dbe9ee
+Light blue - c0d6df
+Dull blue - 4f6d7a
+Blue - 4a6fa5
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+}
+li {
+    display: inline;
+    float: left;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
