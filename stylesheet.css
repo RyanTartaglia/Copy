@@ -6,6 +6,10 @@ Dull blue - 4f6d7a
 Blue - 4a6fa5
 */
 
+body {
+    background-color:#dbe9ee;
+}
+
 .mbiframe {
     border:none;
     width:100%;
