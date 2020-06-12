@@ -1,8 +1,41 @@
 copy buttons
-styling
-sidebar <link rel="import" href="sidebar.html">
-        <?php include 'sidebar.php'; ?>
-mobile friendly
+styling-
+sidebar-
+mobile friendly-
+adsense-
+metadata stuff-
+
+
+
+when done:
 google analytics
-adsense
-metadata stuff
+google search console
+sitemap
+
+SEARCH RANKINGS:
+- link to site from other sites
+- alt text, small images, good file names
+- likely voice phrases
+
+
+
+HOME:
+how to copy paste
+
+
+PAGES (link to them from other pages and back):
+Shapes
+Fancy Letters and Numbers
+Emojis
+Text Faces
+ASCII Art
+
+
+PORTALS:
+Minecraft
+Instagram
+Twitter
+Github
+YouTube
+TikTok
+Reddit
