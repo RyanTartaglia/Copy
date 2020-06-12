@@ -78,6 +78,7 @@ h2 {margin-top: 0px; padding:0px}
 .cb:active {
     transition: all 0s ease-in-out;
     color: yellow;
+    background-color: lightgray;
 }
 
 .bkmk {
