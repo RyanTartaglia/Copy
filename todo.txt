@@ -11,6 +11,7 @@ when done:
 google analytics
 google search console
 sitemap
+wayback machine
 
 SEARCH RANKINGS:
 - link to site from other sites
@@ -25,10 +26,9 @@ how to copy paste
 
 PAGES (link to them from other pages and back):
 Shapes
-Fancy Letters and Numbers
-Emojis
-Text Faces
-ASCII Art
+Braille
+
+All Pages
 
 
 PORTALS:
@@ -39,3 +39,21 @@ Github
 YouTube
 TikTok
 Reddit
+
+
+
+
+
+div.monoblock, div.arialblock {
+    display:inline-block;
+    white-space:pre;
+    margin:0.4rem;
+    padding:0.4rem;
+}
+.monoblock {font-family:monospace}
+.arialblock {font-family:Arial}
+
+
+𐂂 𐂃 𐂄 𐂅 𓃾 𓃿 𓄀 𓄁 𓄃 𓄉 𓄇 𓄅 𓅿 𓆀 𓆁
+
+𓆈 𓆉 𓆊 𓆏 𓆚 𓆟 𓆡 𓆣 𓆤 𓆦 
