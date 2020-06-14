@@ -97,4 +97,4 @@ div.monoblock, div.divblock, div.bgblock, div.navdiv {display:inline-block;white
     }
   }
 .inline {display:inline-block;}
-.seealso {padding-left: 20px;}
+.seealso {display:inline-block;padding-left: 20px;}
