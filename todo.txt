@@ -21,17 +21,15 @@ SEARCH RANKINGS:
 - link to site from other sites
 - alt text, small images, good file names
 - likely voice phrases
+- test https://www.screamingfrog.co.uk/
+- test site:c.r74n.com
 
 
 
-HOME:
-how to copy paste
 
 
 PAGES (link to them from other pages and back):
 Arrows
-Combining Characters (combining)
-Invisible Characters (invisible)
 Braille
 Bob
 
