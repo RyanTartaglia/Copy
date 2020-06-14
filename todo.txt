@@ -12,6 +12,8 @@ google analytics
 google search console
 sitemap
 wayback machine
+qr code
+share buttons
 
 SEARCH RANKINGS:
 - link to site from other sites
@@ -25,7 +27,9 @@ how to copy paste
 
 
 PAGES (link to them from other pages and back):
-Shapes
+Arrows
+Combining Characters (combining)
+Invisible Characters (invisible)
 Braille
 
 All Pages
@@ -39,6 +43,9 @@ Github
 YouTube
 TikTok
 Reddit
+Apple
+Windows
+WhatsApp
 
 
 
@@ -57,3 +64,7 @@ div.monoblock, div.arialblock {
 𐂂 𐂃 𐂄 𐂅 𓃾 𓃿 𓄀 𓄁 𓄃 𓄉 𓄇 𓄅 𓅿 𓆀 𓆁
 
 𓆈 𓆉 𓆊 𓆏 𓆚 𓆟 𓆡 𓆣 𓆤 𓆦 
+
+
+
+厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂厂下广卞廿十一卉半与本二上旦上二本与半卉一十廿卞广下厂
