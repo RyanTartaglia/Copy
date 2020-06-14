@@ -48,12 +48,15 @@ h2 {margin-top: 0px; padding:0px}
 .cb {
     cursor: pointer;
     -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     transition: all .1s ease-in-out;
     padding-left:10px;
     padding-right:10px;
     border: 2px solid #a9bcc4;
     border-radius: 10px;
+    display:inline-block;
 }
 .cb:hover {
     color: #4a6fa5;
@@ -66,7 +69,7 @@ h2 {margin-top: 0px; padding:0px}
 
 .bkmk {font-size:20px;}
 
-div.monoblock, div.arialblock {display:inline-block;white-space:pre;margin:0.4rem;padding:0.4rem;vertical-align:middle;}
+div.monoblock, div.divblock {display:inline-block;white-space:pre;margin:0.4rem;padding:0.4rem;vertical-align:middle;}
 .monoblock {font-family:monospace;}
-.arialblock {font-family:Arial;}
+.divblock {font-family:Arial;}
 .inline {display:inline-block;}
