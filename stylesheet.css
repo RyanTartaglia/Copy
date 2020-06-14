@@ -90,5 +90,11 @@ div.monoblock, div.divblock, div.bgblock, div.navdiv {display:inline-block;white
     font-size:25px;
     white-space:pre;margin:0.4rem;padding:0.4rem;vertical-align:top;
 }
+@media only screen and (max-width: 850px) {
+    .col {
+      display: block;
+      width: 95.5%;
+    }
+  }
 .inline {display:inline-block;}
 .seealso {padding-left: 20px;}
