@@ -1,10 +1,11 @@
-copy buttons
+copy buttons-
 styling-
 sidebar-
 mobile friendly-
 adsense-
 metadata stuff-
-
+favicon-
+404 page
 
 
 when done:
