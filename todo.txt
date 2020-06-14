@@ -6,6 +6,7 @@ adsense-
 metadata stuff-
 favicon-
 404 page
+"see also" instead of "click here"
 
 
 when done:
@@ -31,6 +32,7 @@ SEARCH RANKINGS:
 PAGES (link to them from other pages and back):
 Arrows
 Braille
+Long
 Bob
 
 All Pages
