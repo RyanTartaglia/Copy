@@ -75,8 +75,8 @@ div.monoblock, div.divblock, div.bgblock, div.navdiv {display:inline-block;white
 .monoblock {font-family:monospace;}
 .divblock {font-family:Arial;}
 .bgblock {background-color:#ddd;border:2px solid #a9bcc4;}
-.bgblock a {padding:20px;}
-.col a {padding:20px;}
+.bgblock a {padding-left:20px;padding-right:20px;}
+.col a {padding-left:20px;padding-right:20px;}
 .colcontainer {
     display: table;
     width: 100%;
