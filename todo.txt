@@ -7,10 +7,15 @@ metadata stuff-
 favicon-
 404 page-
 "see also" instead of "click here"-
-button styling
-select styling
+button styling-
+select styling-
 textarea styling
 input text styling
+
+MAKE ADS SMALLER
+REMOVE & FROM TITLE AND DESC
+<div style="width:50%;height:100px;margin:auto;">
+Copy Paste Dump - Useful copy and paste text symbols, emojis, text faces, tools and more
 
 
 when done:
@@ -20,6 +25,7 @@ sitemap
 wayback machine
 qr code
 share buttons
+twitter feed
 add more ads to long pages
 
 SEARCH RANKINGS:
