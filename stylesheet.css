@@ -71,7 +71,7 @@ h2 {margin-top: 0px; padding:0px}
 
 .bkmk {font-size:20px;}
 
-div.monoblock, div.divblock, div.bgblock, div.navdiv {display:inline-block;white-space:pre;margin:0.4rem;padding:0.4rem;vertical-align:middle;}
+div.monoblock, div.divblock, div.bgblock, div.navdiv {display:inline-block;white-space:pre-wrap;margin:0.4rem;padding:0.4rem;vertical-align:middle;}
 .monoblock {font-family:monospace;}
 .divblock {font-family:Arial;}
 .bgblock {background-color:#ddd;border:2px solid #a9bcc4;}
