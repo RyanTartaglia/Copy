@@ -100,3 +100,20 @@ div.monoblock, div.divblock, div.bgblock, div.navdiv {display:inline-block;white
 .seealso {display:inline-block;padding-left: 20px;}
 
 img {vertical-align:middle;}
+button, input[type=button], .button {
+    background-color:#f1f1f1;
+    font-size:20px;
+    transition:0.3s;
+    padding:7px;
+    border:2px solid #a9bcc4;
+    border-radius: 13px;
+    cursor:pointer;
+}
+button:hover, input[type=button]:hover, .button:hover {background-color: #ddd;}
+button:active, input[type=button]:active, .button:active {background-color: #a9bcc4;}
+
+input[type=text] {
+    font-size:18px;
+    vertical-align: middle;
+}
+select {background-color: #f1f1f1;}

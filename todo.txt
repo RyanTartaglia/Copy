@@ -5,8 +5,12 @@ mobile friendly-
 adsense-
 metadata stuff-
 favicon-
-404 page
-"see also" instead of "click here"
+404 page-
+"see also" instead of "click here"-
+button styling
+select styling
+textarea styling
+input text styling
 
 
 when done:
@@ -28,15 +32,10 @@ SEARCH RANKINGS:
 
 
 
-
 PAGES (link to them from other pages and back):
-Arrows
 Braille
 Long
 Bob
-Anti-LGBT Emoji
-
-All Pages
 
 
 PORTALS:

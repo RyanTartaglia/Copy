@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Copy & Paste Dump - Useful copy and paste emoticons, art, and more">
+    <meta name="keywords" content="copy, emoticons, emojis, unicode, symbols, ascii, text, text art">
+    <meta name="author" content="R74n">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <title>Text Modifier - Copy & Paste Dump</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css"/>
+    <link rel="icon" href="../favicon.ico" type="image/gif" sizes="16x16">
+    <script src="../scripts.js"></script>
+    <script src="../jquery-3.5.1.js"></script>
+    <script>
+      function getText() {
+        return document.getElementById("TextBox").value;
+      }
+      function setText(a) {
+        document.getElementById("ResultBox").value = a;
+      }
+    </script>
+    
+</head>
+
+<body>
+
+<a class="cpdtitle" href="https://c.r74n.com"><h1>Copy Paste Dump</h1></a>
+<iframe class="mbiframe" src="../menubar.html" name="menubar"></iframe>
+
+<div class="content">
+<h2 class="pagetitle">Text Modifier</h2>
+
+Enter text in the top, press a button and the modified text will appear in the bottom.
+<br><br>
+<textarea id="TextBox" style="height:100px;width:75%;font-size:25px;"></textarea>
+<br><br>
+<span class="button" onclick="setText(getText().split('').join(' '))">Spaces</span>
+<span class="button" onclick="setText(getText().split('').join('\n'))">Split into Lines</span>
+<span class="button" onclick="setText(getText().split(/[ \n\t]+/).join(''))">Remove Spaces</span>
+<span class="button" onclick="setText(getText().split(/[ \n\t,]+/).join('‍'))">Zero Width Joiner</span>
+<br><br>
+<textarea id="ResultBox" style="height:100px;width:75%;font-size:25px;"></textarea><br><br>
+
+
+</div>
+
+
+
+<script src="../loadbuttons.js"></script>
+
+<script data-ad-client="ca-pub-8485284630785740" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div class="adbox">
+  <!-- Copy Paste Dump -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-8485284630785740"
+       data-ad-slot="5555682735"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+  </div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93720349-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-93720349-8');
+</script>
+
+
+</body>
+</html>
