@@ -1,0 +1,8 @@
+Horizontal Flip: HF
+Sunglasses: SG
+Squished: SQ
+Thinking: TK
+Greyscale: BW
+Feather Boa: FB
+Pride Fan: FF
+Unicorn: UN

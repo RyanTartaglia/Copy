@@ -5,6 +5,7 @@ https://c.r74n.com/faces
 https://c.r74n.com/fancy
 https://c.r74n.com/shapes
 https://c.r74n.com/arrows
+https://c.r74n.com/braille
 https://c.r74n.com/combining
 https://c.r74n.com/invisible
 https://c.r74n.com/instagram/
@@ -13,6 +14,10 @@ https://c.r74n.com/twitter/
 https://c.r74n.com/twitter/factcheck
 https://c.r74n.com/anti
 https://c.r74n.com/twitch/
+https://c.r74n.com/fonts/
+https://c.r74n.com/modifier/
+https://c.r74n.com/sorter/
+https://c.r74n.com/bob
 https://c.r74n.com/unicode#Useful
 https://c.r74n.com/unicode#Money
 https://c.r74n.com/unicode#Music
