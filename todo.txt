@@ -11,7 +11,7 @@ button styling-
 select styling-
 textarea styling-
 input text styling-
-alt text
+alt text-
 new darker theme-
 
 <div style="width:50%;height:100px;margin:auto;">
