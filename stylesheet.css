@@ -50,7 +50,7 @@ body {
 
 a {text-decoration: none;color: #201cff;}
 a:visited {color:#201cff;}
-a:active {color:#1613bd;}
+a:active {color:#5452ff;}
 h2 {margin-top: 0px; padding:0px}
 
 .cb {
@@ -83,7 +83,9 @@ div.monoblock, div.divblock, div.bgblock, div.navdiv {display:inline-block;white
 .divblock {font-family:Arial;}
 .bgblock {background-color:#a6a6a6;border:2px solid #a9bcc4;}
 .bgblock a {padding-left:20px;padding-right:20px;}
-.col a {padding-left:20px;padding-right:20px;color:#201cff}
+.col a {padding-left:20px;padding-right:20px;color:#201cff;}
+.col a:visited {color:#201cff;}
+.col a:active {color:#6966ff;}
 .colcontainer {
     display: table;
     width: 100%;
