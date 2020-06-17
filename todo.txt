@@ -21,8 +21,8 @@ Copy Paste Dump - Useful copy and paste text symbols, emojis, text faces, tools 
 when done:
 google analytics
 google search console
-sitemap
-wayback machine
+sitemap-
+wayback machine-
 qr code
 share buttons
 twitter feed
