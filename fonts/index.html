@@ -46,6 +46,7 @@
 See Also:<a class="seealso" href="../fancy">Individual Characters</a><a class="seealso" href="../combining">Combining Characters</a>
 <br><br>
 Type text in the top, select a font, and Unicode characters will appear in the bottom!<br><br>
+Support may vary across devices.<br><br>
 
 <div style="font-size:25px;">
 
@@ -53,36 +54,51 @@ Type text in the top, select a font, and Unicode characters will appear in the b
 <br>
 <select id="SelectBox" onchange="convert();" style="font-size:20px;">
   <option selected disabled value="normal">Select a Font</option>
-  <option value="normal">Normal</option>
-  <option value="circled">Circled</option>
-  <option value="full circle">Filled Circle</option>
-  <option value="fullwidth">Fullwidth</option>
-  <option value="bold">Bold</option>
-  <option value="italic">Italic</option>
-  <option value="bold italic">Bold Italic</option>
-  <option value="sans">Sans</option>
-  <option value="doublestruck">Double-Struck</option>
-  <option value="fraktur">Fraktur</option>
-  <option value="bold fraktur">Fraktur Bold</option>
-  <option value="monospace">Monospace</option>
-  <option value="serif bold">Serif Bold</option>
-  <option value="serif bold italic">Serif Bold Italic</option>
-  <option value="script">Script / Cursive</option>
-  <option value="bold script">Bold Script</option>
-  <option value="parentheses">Parentheses</option>
-  <option value="regional indicator">Regional Indicator / Big Letters</option>
-  <option value="squared">Squared</option>
-  <option value="full squared">Filled Square</option>
-  <option value="tag">Tag</option>
-  <option value="thai">Thai</option>
-  <option value="cyrillic">Cyrillic</option>
-  <option value="ethiopic">Ethiopic</option>
-  <option value="small capitals">Small Capitals</option>
-  <option value="slashed">Slashed</option>
-  <option value="circumflex">Circumflex</option>
-  <option value="caron">Caron</option>
-  <option value="acute accent">Acute Accent</option>
-  <option value="grave accent">Grave Accent</option>
+  <option value="normal">Normal (Aa)</option>
+  <option value="circled">Circled (Ⓐⓐ)</option>
+  <option value="full circle">Filled Circle (🅐)</option>
+  <option value="fullwidth">Fullwidth (Ａａ)</option>
+  <option value="bold">Bold (𝗔𝗮)</option>
+  <option value="italic">Italic (𝘈𝘢)</option>
+  <option value="bold italic">Bold Italic (𝘼𝙖)</option>
+  <option value="strikethrough">Strikethrough (A̶a̶)</option>
+  <option value="underline">Underlined (A̲a̲)</option>
+  <option value="underline2">Double Underlined (A̳a̳)</option>
+  <option value="overline">Line Above (A̅a̅)</option>
+  <option value="overline2">Double Line Above (A̿a̿)</option>
+  <option value="homoglyph">Homoglyph (Aa)</option>
+  <option value="japanese">Japanese (卂)</option>
+  <option value="sans">Sans (𝖠𝖺)</option>
+  <option value="doublestruck">Double-Struck (𝔸𝕒)</option>
+  <option value="fraktur">Fraktur (𝔄𝔞)</option>
+  <option value="bold fraktur">Fraktur Bold (𝕬𝖆)</option>
+  <option value="monospace">Monospace (𝙰𝚊)</option>
+  <option value="serif bold">Serif Bold (𝐀𝐚)</option>
+  <option value="serif bold italic">Serif Bold Italic (𝑨𝒂)</option>
+  <option value="script">Script / Cursive (𝒜𝒶)</option>
+  <option value="bold script">Bold Script (𝓐𝓪)</option>
+  <option value="parentheses">Parentheses (⒜)</option>
+  <option value="brackets">Brackets (【A】【a】)</option>
+  <option value="corner brackets">Corner Brackets (『A』『a』)</option>
+  <option value="regional indicator">Regional Indicator / Big Letters (🇦)</option>
+  <option value="squared">Squared (🄰)</option>
+  <option value="full squared">Filled Square (🅰)</option>
+  <option value="boxed">Boxed ([̲̅A][̲̅a])</option>
+  <option value="tag">Tag / Invisible</option>
+  <option value="thai">Thai (ﾑ)</option>
+  <option value="cyrillic">Cyrillic / Russian (Д)</option>
+  <option value="ethiopic">Ethiopic (ል)</option>
+  <option value="wingdings">Wingdings (✌︎♋︎)</option>
+  <option value="small capitals">Small Capitals (ᴀ)</option>
+  <option value="triangle">Triangles (A⃤a⃤)</option>
+  <option value="fireworks">Fireworks (A҉a҉)</option>
+  <option value="slashed">Slashed (Ⱥa̷)</option>
+  <option value="shade">Shade (A░a░)</option>
+  <option value="hearts">Hearts (A♥a♥)</option>
+  <option value="circumflex">Circumflex (Ââ)</option>
+  <option value="caron">Caron (Ǎǎ)</option>
+  <option value="acute accent">Acute Accent (Áá)</option>
+  <option value="grave accent">Grave Accent (Àà)</option>
   
 </select>
 <button onclick="convert();" style="font-size:20px;">Convert</button>

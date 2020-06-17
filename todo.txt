@@ -24,7 +24,7 @@ google search console
 sitemap-
 wayback machine-
 qr code
-share buttons
+share buttons-
 twitter feed
 add more ads to long pages
 
