@@ -9,11 +9,11 @@ favicon-
 "see also" instead of "click here"-
 button styling-
 select styling-
-textarea styling
-input text styling
+textarea styling-
+input text styling-
+alt text
+new darker theme-
 
-MAKE ADS SMALLER
-REMOVE & FROM TITLE AND DESC
 <div style="width:50%;height:100px;margin:auto;">
 Copy Paste Dump - Useful copy and paste text symbols, emojis, text faces, tools and more
 
@@ -36,27 +36,10 @@ SEARCH RANKINGS:
 - test site:c.r74n.com
 
 
-à́̀́̀́̀́̀́̀́̀́̀
 
 PAGES (link to them from other pages and back):
 
-
-
 PORTALS:
-Instagram-
-  Pride Hashtags-
-Twitter
-  Fact Check
-Github
-YouTube
-TikTok
-Reddit
-Apple
-  Apple Logo and Beats Logo
-  Emojis Not On The Keyboard
-Windows
-WhatsApp
-Minecraft
 
 
 

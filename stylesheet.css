@@ -3,13 +3,14 @@ Color Scheme
 Very light blue - dbe9ee
 Light blue - c0d6df
 Dull blue - 4f6d7a
-Blue - 4a6fa5
+Blue - 0066ff
 */
 
 body {
-    background-color:#dbe9ee;
+    background-color:#85979e;
     font-family: Arial;
     font-size: 18px;
+    color: #00202a;
 }
 
 .mbiframe {
@@ -17,12 +18,16 @@ body {
     width:100%;
     height:77px;
 }
+.ftiframe {
+    border:none;
+    width:100%;
+}
 
 .cpdtitle {text-align:center;transition: 5s;}
 .cpdtitle:hover {color:#63c7db;}
 .content {padding: 20px;}
 
-.tabs {border: 1px solid #ccc;background-color:#f1f1f1;overflow:auto;white-space:nowrap;cursor:default;}
+.tabs {border: 1px solid #9c9c9c;background-color:#adadad;overflow:auto;white-space:nowrap;cursor:default;}
 .tabs button, .tabs span {
     background-color: inherit;
     border: none;
@@ -33,18 +38,19 @@ body {
     display:inline-block;
 }
 .tabs button {cursor:pointer;}
-.tabs button:hover {background-color: #ddd;}
-.tabs button.active {background-color: #ccc;}
+.tabs button:hover {background-color: #a6a6a6;}
+.tabs button.active {background-color: #9c9c9c;}
 .tabs span {cursor:default;}
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #9c9c9c;
     border-top: none;
 }
 
-a {text-decoration: none;color: #4a6fa5;}
-a:visited {color: #4a6fa5;}
+a {text-decoration: none;color: #201cff;}
+a:visited {color:#201cff;}
+a:active {color:#1613bd;}
 h2 {margin-top: 0px; padding:0px}
 
 .cb {
@@ -56,17 +62,18 @@ h2 {margin-top: 0px; padding:0px}
     transition: all .1s ease-in-out;
     padding-left:10px;
     padding-right:10px;
-    border: 2px solid #a9bcc4;
+    border: 2px solid #646e73;
     border-radius: 10px;
     display:inline-block;
+    background-color:#adadad;
 }
 .cb:hover {
-    color: #4a6fa5;
+    color: #0066ff;
 }
 .cb:active {
     transition: all 0s ease-in-out;
     color: yellow;
-    background-color: lightgray;
+    background-color:#646e73;
 }
 
 .bkmk {font-size:20px;}
@@ -74,16 +81,16 @@ h2 {margin-top: 0px; padding:0px}
 div.monoblock, div.divblock, div.bgblock, div.navdiv {display:inline-block;white-space:pre-wrap;margin:0.4rem;padding:0.4rem;vertical-align:middle;}
 .monoblock {font-family:monospace;}
 .divblock {font-family:Arial;}
-.bgblock {background-color:#ddd;border:2px solid #a9bcc4;}
+.bgblock {background-color:#a6a6a6;border:2px solid #a9bcc4;}
 .bgblock a {padding-left:20px;padding-right:20px;}
-.col a {padding-left:20px;padding-right:20px;}
+.col a {padding-left:20px;padding-right:20px;color:#201cff}
 .colcontainer {
     display: table;
     width: 100%;
     table-layout: fixed;
 }
 .col {
-    background-color:#ddd;
+    background-color:#a6a6a6;
     display: table-cell;
     padding: 16px;
     border:2px solid #a9bcc4;
@@ -101,21 +108,25 @@ div.monoblock, div.divblock, div.bgblock, div.navdiv {display:inline-block;white
 
 img {vertical-align:middle;}
 button, input[type=button], .button {
-    background-color:#f1f1f1;
+    background-color:#adadad;
     font-size:20px;
     transition:0.3s;
     padding:7px;
-    border:2px solid #a9bcc4;
+    border:2px solid #646e73;
     border-radius: 13px;
     cursor:pointer;
     display:inline-block;
     white-space: nowrap;
 }
-button:hover, input[type=button]:hover, .button:hover {background-color: #ddd;}
+button:hover, input[type=button]:hover, .button:hover {background-color: #a6a6a6;}
 button:active, input[type=button]:active, .button:active {background-color: #a9bcc4;}
 
 input[type=text] {
     font-size:18px;
     vertical-align: middle;
+    border:2px solid #646e73;border-radius: 13px;
+    padding:5px;
+    background-color:#e3e3e3;
 }
-select {background-color: #f1f1f1;display:inline-block;}
+select {background-color: #e3e3e3;display:inline-block;}
+textarea {border:2px solid #646e73;border-radius: 13px;background-color:#e3e3e3;}

@@ -7,48 +7,37 @@
     <meta name="keywords" content="copy, emoticons, emojis, unicode, symbols, ascii, text, text art">
     <meta name="author" content="R74n">
     <meta name="viewport" content="width=devide-width, initial-scale=1.0">
-    <title>Modify Text - Copy Paste Dump</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-    <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
-    <script src="scripts.js"></script>
-    <script src="jquery-3.5.1.js"></script>
-    <script>
-      function getText() {
-        return document.getElementById("TextBox").value;
-      }
-      function setText(a) {
-        document.getElementById("ResultBox").value = a;
-      }
-    </script>
+    <title>WhatsApp - Copy Paste Dump</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css"/>
+    <link rel="icon" href="../favicon.ico" type="image/gif" sizes="16x16">
+    <script src="../scripts.js"></script>
+    <script src="../jquery-3.5.1.js"></script>
     
 </head>
 
 <body>
 
 <a class="cpdtitle" href="https://c.r74n.com"><h1>Copy Paste Dump</h1></a>
-<iframe class="mbiframe" src="menubar.html" name="menubar"></iframe>
+<iframe class="mbiframe" src="../menubar.html" name="menubar"></iframe>
 
 <div class="content">
-<h2 class="pagetitle">Text Modifier</h2>
+<h2 class="pagetitle">WhatsApp Portal</h2>
 
-Enter text in the top, press a button and the modified text will appear in the bottom.
+<a class="bkmk" href="#Emoji" id="Emoji" title="Windows Special Emojis">Special WhatsApp Emojis</a>
+🏴󠁵󠁳󠁴󠁸󠁿 🏳️‍⚧ ♂ ♀ ⚧️
 <br><br>
-<textarea id="TextBox" style="height:100px;width:75%;font-size:25px;"></textarea>
+The black flag will be displayed as a Texas flag in the app.
 <br><br>
-<span class="button" onclick="setText(getText().split('').join(' '))">Spaces</span>
-<span class="button" onclick="setText(getText().split('').join('\n'))">Split into Lines</span>
-<span class="button" onclick="setText(getText().split(/[ \n\t]+/).join(''))">Remove Spaces</span>
-<span class="button" onclick="setText(getText().split(/[ \n\t,]+/).join('‍'))">Zero Width Joiner</span>
-<br><br>
-<textarea id="ResultBox" style="height:100px;width:75%;font-size:25px;"></textarea>
-<br><br>
-Use this tool to modify strings in different ways, like splitting text, removing spaces, and joining text.
+This Olympic Rings emoji used to be displayed on WhatsApp but no longer is. ◯‍◯‍◯‍◯‍◯
+
+
+
 
 </div>
 
 
 
-<script src="loadbuttons.js"></script>
+<script src="../loadbuttons.js"></script>
 
 <iframe class="ftiframe" src="footer.html" name="footer"></iframe>
 
