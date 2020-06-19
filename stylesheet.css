@@ -78,9 +78,11 @@ h2 {margin-top: 0px; padding:0px}
 
 .bkmk {font-size:20px;}
 
-div.monoblock, div.divblock, div.bgblock, div.navdiv {display:inline-block;white-space:pre-wrap;margin:0.4rem;padding:0.4rem;vertical-align:middle;}
+div.monoblock, div.divblock, div.bgblock, div.navdiv, div.artblock, div.tinyblock {display:inline-block;white-space:pre-wrap;margin:0.4rem;padding:0.4rem;vertical-align:middle;}
 .monoblock {font-family:monospace;}
 .divblock {font-family:Arial;}
+.artblock {font-family:Arial;line-height:130%;}
+.tinyblock {font-family:Arial;line-height:130%;font-size:10px;cursor:text;}
 .bgblock {background-color:#a6a6a6;border:2px solid #a9bcc4;}
 .bgblock a {padding-left:20px;padding-right:20px;}
 .col a {padding-left:20px;padding-right:20px;color:#201cff;}
