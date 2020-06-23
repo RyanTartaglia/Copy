@@ -79,6 +79,7 @@ h2 {margin-top: 0px; padding:0px}
 .bkmk {font-size:20px;}
 
 div.monoblock, div.divblock, div.bgblock, div.navdiv, div.artblock, div.tinyblock {display:inline-block;white-space:pre-wrap;margin:0.4rem;padding:0.4rem;vertical-align:middle;}
+div.nopadblock {display:inline-block;white-space:pre-wrap;vertical-align:middle;}
 .monoblock {font-family:monospace;}
 .divblock {font-family:Arial;}
 .artblock {font-family:Arial;line-height:130%;}
@@ -137,3 +138,14 @@ textarea {border:2px solid #646e73;border-radius: 13px;background-color:#e3e3e3;
 
 figure {display:inline-block;width:auto;}
 figcaption {text-align:center;}
+
+table, th, td {
+    border:1px solid #646e73;
+}
+th, td {padding: 15px;text-align: left;}
+table {border-spacing: 0px;}
+tr:nth-child(even) {background-color: #75848a;}
+td {font-weight:normal;}
+
+b {font-weight:bold;}
+i {font-style:italic;}
