@@ -21,6 +21,7 @@ https://c.r74n.com/ryan
 https://c.r74n.com/bob
 https://c.r74n.com/youtube/
 https://c.r74n.com/twitch/
+https://c.r74n.com/twitch/suffixes.txt
 https://c.r74n.com/tiktok/
 https://c.r74n.com/mc/
 https://c.r74n.com/mc/color
@@ -182,3 +183,9 @@ https://c.r74n.com/tiktok/#Emoji
 https://c.r74n.com/windows/#Emoji
 https://c.r74n.com/whatsapp/#Emoji
 https://c.r74n.com/pinterest/#Pride
+https://c.r74n.com/twitch/#StreamWithPride
+https://c.r74n.com/twitch/#streamerluv
+https://c.r74n.com/twitch/#HAHAHAlidays
+https://c.r74n.com/twitch/#RPGMegacheer
+https://c.r74n.com/twitch/#Prime
+https://c.r74n.com/twitch/#Robots

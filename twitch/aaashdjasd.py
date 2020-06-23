@@ -1,41 +1,17 @@
-lines = """FlipThis https://static-cdn.jtvnw.net/emoticons/v1/115844/1.0
-TableHere https://static-cdn.jtvnw.net/emoticons/v1/115845/1.0
-ScaredyCat https://static-cdn.jtvnw.net/emoticons/v1/115846/1.0
-KappaHD https://static-cdn.jtvnw.net/emoticons/v1/115847/1.0
-MiniK https://static-cdn.jtvnw.net/emoticons/v1/115848/1.0
-PrimeYouDontSay https://static-cdn.jtvnw.net/emoticons/v1/134251/1.0
-PrimeUWot https://static-cdn.jtvnw.net/emoticons/v1/134252/1.0
-PrimeRlyTho https://static-cdn.jtvnw.net/emoticons/v1/134253/1.0
-BagOfMemes https://static-cdn.jtvnw.net/emoticons/v1/426163/1.0
-MindManners https://static-cdn.jtvnw.net/emoticons/v1/426167/1.0
-PartyPopper https://static-cdn.jtvnw.net/emoticons/v1/426170/1.0
-PokBlaziken https://static-cdn.jtvnw.net/emoticons/v1/743872/1.0
-PokCharizard https://static-cdn.jtvnw.net/emoticons/v1/743875/1.0
-PokGardevoir https://static-cdn.jtvnw.net/emoticons/v1/743884/1.0
-PokGengar https://static-cdn.jtvnw.net/emoticons/v1/743886/1.0
-PokCroagunk https://static-cdn.jtvnw.net/emoticons/v1/743889/1.0
-PokLucario https://static-cdn.jtvnw.net/emoticons/v1/743892/1.0
-PokMachamp https://static-cdn.jtvnw.net/emoticons/v1/743895/1.0
-PokMaskedpika https://static-cdn.jtvnw.net/emoticons/v1/743899/1.0
-PokMewtwo https://static-cdn.jtvnw.net/emoticons/v1/743901/1.0
-PokPikachu https://static-cdn.jtvnw.net/emoticons/v1/743904/1.0
-PokSuicune https://static-cdn.jtvnw.net/emoticons/v1/743905/1.0
-PokWeavile https://static-cdn.jtvnw.net/emoticons/v1/743907/1.0
-PokAegislash https://static-cdn.jtvnw.net/emoticons/v1/743910/1.0
-PokBraixen https://static-cdn.jtvnw.net/emoticons/v1/743912/1.0
-PokChandelure https://static-cdn.jtvnw.net/emoticons/v1/743914/1.0
-PokGarchomp https://static-cdn.jtvnw.net/emoticons/v1/743918/1.0
-PokSceptile https://static-cdn.jtvnw.net/emoticons/v1/743922/1.0
-PokShadowmew https://static-cdn.jtvnw.net/emoticons/v1/743929/1.0
-FortOne https://static-cdn.jtvnw.net/emoticons/v1/822112/1.0
-FortBush https://static-cdn.jtvnw.net/emoticons/v1/822126/1.0
-FortHype https://static-cdn.jtvnw.net/emoticons/v1/822137/1.0
-FortLlama https://static-cdn.jtvnw.net/emoticons/v1/822146/1.0
-PokBlastoise https://static-cdn.jtvnw.net/emoticons/v1/864143/1.0
-PokDarkrai https://static-cdn.jtvnw.net/emoticons/v1/864145/1.0
-PokDecidueye https://static-cdn.jtvnw.net/emoticons/v1/864147/1.0
-PokEmpoleon https://static-cdn.jtvnw.net/emoticons/v1/864148/1.0
-PokScizor https://static-cdn.jtvnw.net/emoticons/v1/864149/1.0"""
+lines = """:) https://static-cdn.jtvnw.net/emoticons/v1/1/1.0
+:( https://static-cdn.jtvnw.net/emoticons/v1/2/1.0
+:D https://static-cdn.jtvnw.net/emoticons/v1/3/1.0
+>( https://static-cdn.jtvnw.net/emoticons/v1/4/1.0
+:| https://static-cdn.jtvnw.net/emoticons/v1/5/1.0
+O_o https://static-cdn.jtvnw.net/emoticons/v1/6/1.0
+B) https://static-cdn.jtvnw.net/emoticons/v1/7/1.0
+:O https://static-cdn.jtvnw.net/emoticons/v1/8/1.0
+<3 https://static-cdn.jtvnw.net/emoticons/v1/9/1.0
+:/ https://static-cdn.jtvnw.net/emoticons/v1/10/1.0
+;) https://static-cdn.jtvnw.net/emoticons/v1/11/1.0
+:P https://static-cdn.jtvnw.net/emoticons/v1/12/1.0
+;P https://static-cdn.jtvnw.net/emoticons/v1/13/1.0
+R) https://static-cdn.jtvnw.net/emoticons/v1/14/1.0"""
 
 final = []
 for line in lines.splitlines():
