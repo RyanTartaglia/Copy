@@ -38,6 +38,8 @@ https://c.r74n.com/ryan/other_emoji_art
 https://c.r74n.com/textart
 https://c.r74n.com/wordart
 https://c.r74n.com/copypastas
+https://c.r74n.com/discord/
+https://c.r74n.com/discord/formatting
 https://c.r74n.com/unicode#Useful
 https://c.r74n.com/unicode#Money
 https://c.r74n.com/unicode#Music
@@ -189,3 +191,15 @@ https://c.r74n.com/twitch/#HAHAHAlidays
 https://c.r74n.com/twitch/#RPGMegacheer
 https://c.r74n.com/twitch/#Prime
 https://c.r74n.com/twitch/#Robots
+https://c.r74n.com/discord/formatting#Basic
+https://c.r74n.com/discord/formatting#Spoiler
+https://c.r74n.com/discord/formatting#Code
+https://c.r74n.com/discord/formatting#Escape
+https://c.r74n.com/discord/formatting#EscapeMentions
+https://c.r74n.com/discord/formatting#NativeEmojis
+https://c.r74n.com/discord/formatting#Color
+https://c.r74n.com/discord/formatting#Embed
+https://c.r74n.com/discord/formatting#Hyperlink
+https://c.r74n.com/discord/formatting#Quote
+https://c.r74n.com/discord/formatting#Protocol
+https://c.r74n.com/discord/formatting#DevLink
