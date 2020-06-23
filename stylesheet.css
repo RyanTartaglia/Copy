@@ -134,3 +134,6 @@ input[type=text] {
 }
 select {background-color: #e3e3e3;display:inline-block;}
 textarea {border:2px solid #646e73;border-radius: 13px;background-color:#e3e3e3;}
+
+figure {display:inline-block;width:auto;}
+figcaption {text-align:center;}
