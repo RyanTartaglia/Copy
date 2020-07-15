@@ -24,7 +24,7 @@ body {
 }
 
 .cpdtitle {text-align:center;transition: 5s;}
-.cpdtitle:hover {color:#63c7db;}
+.cpdtitle:hover {color:#00f7ff;}
 .content {padding: 20px;}
 
 .tabs {border: 1px solid #9c9c9c;background-color:#adadad;overflow:auto;white-space:nowrap;cursor:default;}
