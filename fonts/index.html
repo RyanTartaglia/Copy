@@ -19,14 +19,22 @@
         var SelectBox = document.getElementById("SelectBox");
         var FontName = SelectBox.options[SelectBox.selectedIndex].value;
         var newtext = "";
-        for (var i = 0; i < Text.length; i++) {
-          char = Text.charAt(i);
-          if (char in fonts[FontName]) {
-            newtext = newtext + fonts[FontName][char];
-          }
-          else {
-            newtext = newtext + char;
-          }
+        if (FontName=="reverse") {
+          newtext = reversed(Text);
+        }
+        else {
+            if ((FontName=="mirror") || (FontName=="upsidedown")) {
+              Text = reversed(Text);
+            }
+            for (var i = 0; i < Text.length; i++) {
+              char = Text.charAt(i);
+              if (char in fonts[FontName]) {
+                newtext = newtext + fonts[FontName][char];
+              }
+              else {
+                newtext = newtext + char;
+              }
+            }
         }
         var ResultBox = document.getElementById("ResultBox");
         ResultBox.value = newtext;
@@ -61,6 +69,9 @@ Support may vary across devices.<br><br>
   <option value="bold">Bold (𝗔𝗮)</option>
   <option value="italic">Italic (𝘈𝘢)</option>
   <option value="bold italic">Bold Italic (𝘼𝙖)</option>
+  <option value="reverse">Reversed (aA)</option>
+  <option value="mirror">Mirrored (aA)</option>
+  <option value="upsidedown">Upside-Down (Ɐǝ)</option>
   <option value="strikethrough">Strikethrough (A̶a̶)</option>
   <option value="underline">Underlined (A̲a̲)</option>
   <option value="underline2">Double Underlined (A̳a̳)</option>
@@ -111,7 +122,8 @@ Support may vary across devices.<br><br>
 </div>
 <br>
 Use this tool to generate fancy Unicode text, like circled letters, squared letters, cursive text, bold text, italic text, and slashed text.
-
+<br><br>
+There are also options to reverse, flip, and mirror text.
 
 
 </div>

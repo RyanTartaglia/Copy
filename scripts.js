@@ -20,3 +20,10 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+function reversed(str){
+  if (str === "")
+    return "";
+  else
+    return reversed(str.substr(1)) + str.charAt(0);
+}
