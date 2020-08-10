@@ -78,10 +78,11 @@ h2 {margin-top: 0px; padding:0px}
 
 .bkmk {font-size:20px;}
 
-div.monoblock, div.divblock, div.bgblock, div.navdiv, div.artblock, div.tinyblock {display:inline-block;white-space:pre-wrap;margin:0.4rem;padding:0.4rem;vertical-align:middle;}
+div.monoblock, div.divblock, div.bgblock, div.navdiv, div.artblock, div.tinyblock, div.groupblock {display:inline-block;white-space:pre-wrap;margin:0.4rem;padding:0.4rem;vertical-align:middle;}
 div.nopadblock {display:inline-block;white-space:pre-wrap;vertical-align:middle;}
 .monoblock {font-family:monospace;}
 .divblock {font-family:Arial;}
+.groupblock {font-family:Arial;border:2px solid #a9bcc4;}
 .artblock {font-family:Arial;line-height:130%;}
 .tinyblock {font-family:Arial;line-height:130%;font-size:10px;cursor:text;}
 .bgblock {background-color:#a6a6a6;border:2px solid #a9bcc4;}
