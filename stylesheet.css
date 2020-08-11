@@ -113,7 +113,7 @@ div.nopadblock {display:inline-block;white-space:pre-wrap;vertical-align:middle;
 .seealso {display:inline-block;padding-left: 20px;}
 
 img {vertical-align:middle;}
-button, input[type=button], .button {
+button, input[type=button], .button, select {
     background-color:#adadad;
     font-size:20px;
     transition:0.3s;
@@ -135,7 +135,7 @@ input[type=text] {
     background-color:#e3e3e3;
 }
 select {background-color: #e3e3e3;display:inline-block;}
-textarea {border:2px solid #646e73;border-radius: 13px;background-color:#e3e3e3;}
+textarea {border:2px solid #646e73;border-radius: 13px;background-color:#e3e3e3;vertical-align:middle;}
 
 figure {display:inline-block;width:auto;}
 figcaption {text-align:center;}
