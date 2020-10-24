@@ -6,3 +6,6 @@ Greyscale: BW
 Feather Boa: FB
 Pride Fan: FF
 Unicorn: UN
+Sombrero: SO
+Maracas: MC
+Guitar: GR
