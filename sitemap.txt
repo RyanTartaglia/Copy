@@ -20,6 +20,13 @@ https://c.r74n.com/holding_hands
 https://c.r74n.com/in_love
 https://c.r74n.com/kissing
 https://c.r74n.com/flags
+https://c.r74n.com/builder
+https://c.r74n.com/pages
+https://c.r74n.com/presentation
+https://c.r74n.com/keycaps
+https://c.r74n.com/tags
+https://c.r74n.com/gender
+https://c.r74n.com/skin
 https://c.r74n.com/faces
 https://c.r74n.com/fancy
 https://c.r74n.com/shapes
@@ -59,6 +66,8 @@ https://c.r74n.com/wordart
 https://c.r74n.com/copypastas
 https://c.r74n.com/discord/
 https://c.r74n.com/discord/formatting
+https://c.r74n.com/slack/
+https://c.r74n.com/handshake
 https://c.r74n.com/ryan/emoji_faces
 https://c.r74n.com/ryan/vertical_faces
 https://c.r74n.com/words
