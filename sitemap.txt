@@ -34,6 +34,9 @@ https://c.r74n.com/arrows
 https://c.r74n.com/braille
 https://c.r74n.com/combining
 https://c.r74n.com/invisible
+https://c.r74n.com/unicode/latin
+https://c.r74n.com/unicode/control
+https://c.r74n.com/lenny
 https://c.r74n.com/instagram/
 https://c.r74n.com/instagram/pride
 https://c.r74n.com/twitter/
@@ -44,6 +47,7 @@ https://c.r74n.com/fonts/
 https://c.r74n.com/modifier
 https://c.r74n.com/sorter
 https://c.r74n.com/ryan/
+https://c.r74n.com/github
 https://c.r74n.com/bob
 https://c.r74n.com/youtube/
 https://c.r74n.com/twitch/
@@ -72,6 +76,7 @@ https://c.r74n.com/ryan/emoji_faces
 https://c.r74n.com/ryan/vertical_faces
 https://c.r74n.com/words
 https://c.r74n.com/ltgt
+https://c.r74n.com/longest
 https://c.r74n.com/complex
 https://c.r74n.com/nsfw
 https://c.r74n.com/jojo
