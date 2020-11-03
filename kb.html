@@ -79,7 +79,9 @@
 
 
     </style>
-
+    
+    <script src="jquery-3.5.1.js"></script>
+    
     <script>
         TextHistory = Array();
         UndoHistory = Array();
@@ -192,6 +194,12 @@
                 }
             })
         }
+
+        $(document).on('blur', 'input, textarea', function () {
+            setTimeout(function () {
+                window.scrollTo(document.body.scrollLeft, document.body.scrollTop);
+            }, 0);
+        });
     </script>
 
 
