@@ -9,3 +9,5 @@ Unicorn: UN
 Sombrero: SO
 Maracas: MC
 Guitar: GR
+Pumpkin: PM
+Witch Hat: WH

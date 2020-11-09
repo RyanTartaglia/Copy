@@ -60,7 +60,7 @@ h2 {margin-top: 0px; padding:0px}
     transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    transition: all .1s ease-in-out;
+    transition: all .2s ease-in-out;
     padding-left:10px;
     padding-right:10px;
     border: 2px solid #646e73;
@@ -70,6 +70,7 @@ h2 {margin-top: 0px; padding:0px}
 }
 .cb:hover {
     color: #0066ff;
+    background-color:#b6b6d3;
 }
 .cb:active {
     transition: all 0s ease-in-out;
