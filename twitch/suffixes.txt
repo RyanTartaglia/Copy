@@ -11,3 +11,6 @@ Maracas: MC
 Guitar: GR
 Pumpkin: PM
 Witch Hat: WH
+Heart Broken: HB
+Heart Eyes: HE
+Kiss Imprint: KI

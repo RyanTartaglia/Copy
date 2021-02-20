@@ -15,7 +15,7 @@ alt text-
 new darker theme-
 
 <div style="width:50%;height:100px;margin:auto;">
-Copy Paste Dump - Useful copy and paste text symbols, emojis, text faces, tools and more
+A useful collection of text symbols, letters, emojis, ASCII art, and a fancy font generator tool.
 
 
 when done:
