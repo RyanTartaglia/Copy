@@ -18,7 +18,7 @@
     <meta name="twitter:image" content=" https://c.r74n.com/thumbnail.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Keycap Sequences and Emojis - Copy Paste Dump</title>
+    <title>Punycode Converter and Decoder - Copy Paste Dump</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
     <link rel="apple-touch-icon" sizes="180x180" href="https://c.r74n.com/icons/apple-touch-icon.png?v=lkvKdlj5Pj">
     <link rel="icon" type="image/png" sizes="32x32" href="https://c.r74n.com/icons/favicon-32x32.png?v=lkvKdlj5Pj">
@@ -31,6 +31,7 @@
     <meta name="theme-color" content="#ffffff">
     <script src="scripts.js"></script>
     <script src="jquery-3.5.1.js"></script>
+    <script src="punycode.js"></script>
     
 </head>
 
@@ -40,14 +41,20 @@
 <iframe class="mbiframe" src="menubar.html" name="menubar"></iframe>
 
 <div class="content">
-<h2 class="pagetitle">Keycap Sequences</h2>
+<h2 class="pagetitle">Text to Punycode Converter</h2>
 
-Click to Copy: <span class="cb">⃣</span>
-<br><br>
-Emoji: *️⃣ #️⃣ 0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣
-<br><br>
-No Selector: *⃣ #⃣ 0⃣ 1⃣ 2⃣ 3⃣ 4⃣ 5⃣ 6⃣ 7⃣ 8⃣ 9⃣
+This tool generates, encodes, and decodes Punycode strings.<br><br>
 
+Put any characters into the left box and encoded Punycode will appear on the right.<br>
+You can also put Punycode into the right box to decode it.<br><br>
+
+If you're trying to make an aesthetic link, just put the special character in, and the link will appear below.<br><br>
+
+<input placeholder="Text" type="text" id="TextBox" oninput="var PunycodeBox=document.getElementById('PunycodeBox');PunycodeBox.value=punycode.encode(this.value);document.getElementById('BioLink').innerHTML='Link for Twitter Bio: http:\/\/replaceme.xn--'+PunycodeBox.value">
+<input placeholder="Punycode" type="text" id="PunycodeBox" oninput="document.getElementById('TextBox').value=punycode.decode(this.value);document.getElementById('BioLink').innerHTML='Link for Twitter Bio: http:\/\/replaceme.xn--'+this.value">
+
+<br><br>
+<span id="BioLink">
 
 
 </div>

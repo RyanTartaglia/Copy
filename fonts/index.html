@@ -77,7 +77,7 @@ Support may vary across devices.<br><br>
 
 <div style="font-size:25px;">
 
-<textarea id="TextBox" style="height:100px;width:75%;font-size:25px;"></textarea>
+<textarea id="TextBox" style="height:100px;width:75%;font-size:25px;" placeholder="Enter text here, select a font, and click Convert"></textarea>
 <br>
 <select id="SelectBox" onchange="convert();" style="font-size:20px;">
   <option selected disabled value="normal">Select a Font</option>
@@ -96,6 +96,9 @@ Support may vary across devices.<br><br>
   <option value="underline2">Double Underlined (A̳a̳)</option>
   <option value="overline">Line Above (A̅a̅)</option>
   <option value="overline2">Double Line Above (A̿a̿)</option>
+  <option value="small capitals">Small Capitals (ᴀ)</option>
+  <option value="superscript">Superscript (ᴬᵃ)</option>
+  <option value="subscript">Subscript (ₐ)</option>
   <option value="homoglyph">Homoglyph (Aa)</option>
   <option value="japanese">Japanese (卂)</option>
   <option value="sans">Sans (𝖠𝖺)</option>
@@ -123,7 +126,6 @@ Support may vary across devices.<br><br>
   <option value="cyrillic">Cyrillic / Russian (Д)</option>
   <option value="ethiopic">Ethiopic (ል)</option>
   <option value="wingdings">Wingdings (✌︎♋︎)</option>
-  <option value="small capitals">Small Capitals (ᴀ)</option>
   <option value="triangle">Triangles (A⃤a⃤)</option>
   <option value="fireworks">Fireworks (A҉a҉)</option>
   <option value="slashed">Slashed (Ⱥa̷)</option>
@@ -137,7 +139,7 @@ Support may vary across devices.<br><br>
 </select>
 <button onclick="convert();" style="font-size:20px;">Convert</button>
 <br><br>
-<textarea id="ResultBox" style="height:100px;width:75%;font-size:25px;"></textarea>
+<textarea id="ResultBox" style="height:100px;width:75%;font-size:25px;" placeholder="Converted text will appear here"></textarea>
 </div>
 <br>
 Use this tool to generate fancy Unicode text, like circled letters, squared letters, cursive text, bold text, italic text, and slashed text.
