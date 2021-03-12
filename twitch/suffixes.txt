@@ -14,3 +14,4 @@ Witch Hat: WH
 Heart Broken: HB
 Heart Eyes: HE
 Kiss Imprint: KI
+Rosie's Bandana: RB
