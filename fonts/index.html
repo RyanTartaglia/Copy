@@ -104,7 +104,7 @@
       window.addEventListener("load",function(){
         var examples = [];
         var chosen = [];
-        for (var i=0; i<10; i++) {
+        for (var i=0; i<15; i++) {
           var example = examplechoices[Math.floor(Math.random() * examplechoices.length)];
           console.log(example)
           if (!(chosen.includes(example))) {
@@ -150,9 +150,9 @@ Support may vary across devices.<br><br>
 
 <div style="font-size:25px;">
 
-<form onsubmit="go();return false;">
+<form onsubmit="window.location.href='?text='+document.getElementById('TextBox').value;return false;">
 <input autofocus id="TextBox" type="text" placeholder="Type text here..." style="width:300px" title="Enter text here, then press [Convert]">
-<button onclick="go();">Convert</button>
+<button onclick="window.location.href='?text='+document.getElementById('TextBox').value;">Convert</button>
 </form>
 
 <br>
