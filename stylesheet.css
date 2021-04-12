@@ -21,11 +21,15 @@ body {
 }
 .ftiframe {
     border:none;
-    width:100%;
+    width: -moz-calc(100% + 40px);
+    width: -webkit-calc(100% + 40px);
+    width: -o-calc(100% + 40px);
+    width: calc(100% + 40px);
+    margin-left:-20px;
 }
 
 .cpdtitle {text-align:center;text-decoration: none;}
-.content {padding: 20px;}
+.content {margin: 20px;}
 
 .tabs {border: 1px solid #5f5f5f;background-color:#cecece;overflow:auto;white-space:nowrap;cursor:default;}
 .tabs button, .tabs span {
