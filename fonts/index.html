@@ -46,7 +46,7 @@
         Text = Text
         var results = [];
         if (!(fonts[font]==undefined)) {
-          console.log(font)
+          //console.log(font)
           results.push("<span class='fontsep'>"+fonts[font]["NAME"]+": "+convert(Text,font).replaceAll("<","&lt;").replaceAll(">","&gt;")+"</span>")
           results.push("<span class='fontsep'>&nbsp;</span>")
           results.push("<span class='fontsep'><h3>Other Fonts</h3></span>")
@@ -59,6 +59,10 @@
       }
       function convert(Text,FontName){
         var newtext = "";
+        if (!(fonts[FontName]["COMBINE"]==undefined)) {var formatter = "X"+fonts[FontName]["COMBINE"]}
+        else if (!(fonts[FontName]["FORMAT"]==undefined)) {var formatter = fonts[FontName]["FORMAT"]}
+        else {var formatter = undefined}
+
         if (FontName=="reverse") {
           newtext = reversed(Text);
         }
@@ -72,7 +76,10 @@
                 newtext = newtext + fonts[FontName][char];
               }
               else {
-                newtext = newtext + char;
+                if (!(formatter==undefined)) {
+                  newtext = newtext + formatter.replaceAll("X",char)
+                }
+                else {newtext = newtext + char;}
               }
             }
         }
@@ -106,7 +113,7 @@
         var chosen = [];
         for (var i=0; i<15; i++) {
           var example = examplechoices[Math.floor(Math.random() * examplechoices.length)];
-          console.log(example)
+          //console.log(example)
           if (!(chosen.includes(example))) {
             chosen.push(example);
             examples.push("<span class='fontsep'><a href='?text="+example+"'>"+example+"</a></span>")

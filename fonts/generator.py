@@ -13,7 +13,7 @@ print(list(d.keys()))
 print(chars)
 copy(chars)
 while True:
-    name = input("Font Name: ")
+    name = input("Font Name: ").replace(" ","-").lower()
     if name in d:
         print("WARNING - Name taken")
 #    copy(chars)
@@ -26,10 +26,11 @@ while True:
     if (not starred) and not len(newchars) == len(chars):
         print("ERROR - Incorrect format")
         continue
-    d[name] = {}
+    d[name] = {"NAME":name.replace("-"," ").title()}
     for n in range(len(chars)):
-        d[name][chars[n]] = newchars[n]
-    jsontext = str(json.dumps(d, indent=0))
-    savefile = open("fonts.js","w",encoding="utf8")
-    savefile.write("fonts = "+jsontext)
+        if not chars[n]==newchars[n]:
+            d[name][chars[n]] = newchars[n]
+    jsontext = str(json.dumps(d[name]))
+    savefile = open("new.txt","a",encoding="utf8")
+    savefile.write("\n\""+name+"\": "+jsontext+",")
     savefile.close()

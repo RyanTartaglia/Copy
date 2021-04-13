@@ -90,6 +90,7 @@ https://c.r74n.com/punycode
 https://c.r74n.com/youtube/invisible-title
 https://c.r74n.com/twitter/invisible-name
 https://c.r74n.com/twitter/invisible-tweet
+https://c.r74n.com/twitter/verified
 https://c.r74n.com/tiktok/invisible-name
 https://c.r74n.com/unicode/bullets
 https://c.r74n.com/kpop
@@ -107,3 +108,6 @@ https://c.r74n.com/ramadan
 https://c.r74n.com/tax-day
 https://c.r74n.com/earth-day
 https://c.r74n.com/cinco-de-mayo
+https://c.r74n.com/unicode/space
+https://c.r74n.com/unicode/stars
+https://c.r74n.com/unicode/weather
