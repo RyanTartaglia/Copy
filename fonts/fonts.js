@@ -72,7 +72,7 @@ fonts = {
 "clap": {"NAME":"Clapping","WORDJOIN":"👏"},
 "xes": {"NAME":"X's","COMBINE":"͓̽"},
 "squiggles": {"NAME":"Squiggles","COMBINE":"̾"},
-"lightning": {"NAME":"lightning","COMBINE":"͛"},
+"lightning": {"NAME":"Lightning","COMBINE":"͛"},
 "zigzag": {"NAME":"Zigzags","FORMAT":"X͛⦚"},
 "up-arrows": {"NAME":"Up Arrows","COMBINE":"͎"},
 "vertical-brackets": {"NAME":"Vertical Brackets","COMBINE":"̺͆"},

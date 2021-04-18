@@ -38,13 +38,13 @@
           return this.replace(new RegExp(str, 'g'), newStr);
         };
       }
-      function go(font){
+      function go(){
         var Text = document.getElementById("TextBox").value;
         Text = Text
         var results = [];
-        if (!(fonts[font]==undefined)) {
+        if (!(fonts[currentfont]==undefined)) {
           //console.log(font)
-          results.push("<span class='fontsep'>"+fonts[font]["NAME"]+": "+convert(Text,font).replaceAll("<","&lt;").replaceAll(">","&gt;")+"</span>")
+          results.push("<span class='fontsep'>"+fonts[currentfont]["NAME"]+": "+convert(Text,currentfont).replaceAll("<","&lt;").replaceAll(">","&gt;")+"</span>")
           results.push("<span class='fontsep'>&nbsp;</span>")
           results.push("<span class='fontsep'><h3>Other Fonts</h3></span>")
         }
@@ -87,6 +87,11 @@
 
         return newtext
       }
+      function updateurl(){
+        if (currentfont==undefined){window.location.href='?text='+document.getElementById('TextBox').value;}
+        else {window.location.href='?text='+document.getElementById('TextBox').value+"&font="+currentfont;}
+        
+      }
 
       examplechoices = [
         "Visit the Copy Paste Dump!",
@@ -108,9 +113,35 @@
         "Happy Hanukkah!",
         "Happy Kwanzaa!",
         "Happy Pride YEAR!",
+        "Thanks for everything",
+        "I'm sorry...",
+        "c.R74n.com",
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "1234567890",
+        "The quick brown fox jumps over the lazy dog.",
+        "I love you!",
+        "Aesthetic",
+        
       ]
 
       window.addEventListener("load",function(){
+        if (!(location.search=="")) {
+          var search = location.search.substring(1);
+          if (search.includes("=")) {
+            var params = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
+            var text = params["text"];
+            //var font = params["font"];
+            currentfont = params["font"];
+          }
+          else {
+            var text = search;
+            currentfont = undefined
+          }
+          if (text==undefined) {text = "Enter Some Text!"}
+          document.getElementById("TextBox").value = text;
+          go();
+
+        }
         var examples = [];
         var chosen = [];
         for (var i=0; i<15; i++) {
@@ -122,20 +153,6 @@
           }
         }
         document.getElementById("ExamplesDiv").innerHTML = examples.join("");
-        if (!(location.search=="")) {
-          var search = location.search.substring(1);
-          if (search.includes("=")) {
-            var params = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
-            var text = params["text"];
-            var font = params["font"];
-          }
-          else {
-            var text = search;
-          }
-          document.getElementById("TextBox").value = text;
-          go(font);
-
-        }
       })
     </script>
     <style>
@@ -159,9 +176,9 @@ Support may vary across devices.<br><br>
 
 <div style="font-size:25px;">
 
-<form onsubmit="window.location.href='?text='+document.getElementById('TextBox').value;return false;">
+<form onsubmit="updateurl();return false;">
 <input autofocus id="TextBox" type="text" placeholder="Type text here..." style="width:300px" title="Enter text here, then press [Convert]">
-<button onclick="window.location.href='?text='+document.getElementById('TextBox').value;">Convert</button>
+<button onclick="updateurl();">Convert</button>
 </form>
 
 <br>
@@ -171,79 +188,12 @@ Support may vary across devices.<br><br>
 <br><br>
 
 <h3>Confused? Try some examples...</h3>
-<div id="ExamplesDiv"></div>
+<div id="ExamplesDiv">Loading...</div>
 
-<!--
-<textarea id="TextBox" style="height:100px;width:75%;font-size:25px;" placeholder="Enter text here, select a font, and click Convert"></textarea>
-<br>
-<select id="SelectBox" onchange="convert();" style="font-size:20px;">
-  <option selected disabled value="normal">Select a Font</option>
-  <option value="normal">Normal (Aa)</option>
-  <option value="circled">Circled (Ⓐⓐ)</option>
-  <option value="full circle">Filled Circle (🅐)</option>
-  <option value="fullwidth">Fullwidth (Ａａ)</option>
-  <option value="bold">Bold (𝗔𝗮)</option>
-  <option value="italic">Italic (𝘈𝘢)</option>
-  <option value="bold italic">Bold Italic (𝘼𝙖)</option>
-  <option value="reverse">Reversed (aA)</option>
-  <option value="mirror">Mirrored (aA)</option>
-  <option value="upsidedown">Upside-Down (Ɐǝ)</option>
-  <option value="strikethrough">Strikethrough (A̶a̶)</option>
-  <option value="underline">Underlined (A̲a̲)</option>
-  <option value="underline2">Double Underlined (A̳a̳)</option>
-  <option value="overline">Line Above (A̅a̅)</option>
-  <option value="overline2">Double Line Above (A̿a̿)</option>
-  <option value="small capitals">Small Capitals (ᴀ)</option>
-  <option value="superscript">Superscript (ᴬᵃ)</option>
-  <option value="subscript">Subscript (ₐ)</option>
-  <option value="homoglyph">Homoglyph (Aa)</option>
-  <option value="japanese">Japanese (卂)</option>
-  <option value="sans">Sans (𝖠𝖺)</option>
-  <option value="doublestruck">Double-Struck (𝔸𝕒)</option>
-  <option value="fraktur">Fraktur (𝔄𝔞)</option>
-  <option value="bold fraktur">Fraktur Bold (𝕬𝖆)</option>
-  <option value="monospace">Monospace (𝙰𝚊)</option>
-  <option value="serif bold">Serif Bold (𝐀𝐚)</option>
-  <option value="serif bold italic">Serif Bold Italic (𝑨𝒂)</option>
-  <option value="script">Script / Cursive (𝒜𝒶)</option>
-  <option value="bold script">Bold Script (𝓐𝓪)</option>
-  <option value="parentheses">Parentheses (⒜)</option>
-  <option value="brackets">Brackets (【A】【a】)</option>
-  <option value="corner brackets">Corner Brackets (『A』『a』)</option>
-  <option value="regional indicator">Regional Indicator / Big Letters (🇦)</option>
-  <option value="squared">Squared (🄰)</option>
-  <option value="full squared">Filled Square (🅰)</option>
-  <option value="boxed">Boxed ([̲̅A][̲̅a])</option>
-  <option value="emoji text">Emoji Text (🅰️🅱️)</option>
-  <option value="first letter">First Letter Emoji (🍎🐻)</option>
-  <option value="braille">Braille (⠁⠃)</option>
-  <option value="fake braille">Fake Braille (⣖⡯)</option>
-  <option value="tag">Tag / Invisible</option>
-  <option value="thai">Thai (ﾑ)</option>
-  <option value="cyrillic">Cyrillic / Russian (Д)</option>
-  <option value="ethiopic">Ethiopic (ል)</option>
-  <option value="wingdings">Wingdings (✌︎♋︎)</option>
-  <option value="triangle">Triangles (A⃤a⃤)</option>
-  <option value="fireworks">Fireworks (A҉a҉)</option>
-  <option value="slashed">Slashed (Ⱥa̷)</option>
-  <option value="shade">Shade (A░a░)</option>
-  <option value="hearts">Hearts (A♥a♥)</option>
-  <option value="circumflex">Circumflex (Ââ)</option>
-  <option value="caron">Caron (Ǎǎ)</option>
-  <option value="acute accent">Acute Accent (Áá)</option>
-  <option value="grave accent">Grave Accent (Àà)</option>
-  
-</select>
-<button onclick="convert();" style="font-size:20px;">Convert</button>
-<br><br>
-<textarea id="ResultBox" style="height:100px;width:75%;font-size:25px;" placeholder="Converted text will appear here"></textarea>
-</div>
-<br>
-Use this tool to generate fancy Unicode text, like circled letters, squared letters, cursive text, bold text, italic text, and slashed text.
-<br><br>
-There are also options to reverse, flip, and mirror text.
--->
 
+<br>
+This is a fancy font generator that uses Unicode text symbols to make cool-looking letters, like bold, italic, underlined, and superscript. They can be used anywhere that allows text input, like Twitter, Facebook, Instagram, Snapchat, TikTok, YouTube comments, Discord, and more!
+<br><br>
 
 
 </div>
