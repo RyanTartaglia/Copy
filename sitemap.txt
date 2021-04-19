@@ -111,3 +111,10 @@ https://c.r74n.com/cinco-de-mayo
 https://c.r74n.com/unicode/space
 https://c.r74n.com/unicode/stars
 https://c.r74n.com/unicode/weather
+https://c.r74n.com/unicode/units
+https://c.r74n.com/unicode/time
+https://c.r74n.com/unicode/alchemical
+https://c.r74n.com/patriots-day
+https://c.r74n.com/arbor-day
+https://c.r74n.com/zoom/
+https://c.r74n.com/zoom/invisible-name
