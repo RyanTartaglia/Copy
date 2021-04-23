@@ -150,7 +150,7 @@
           //console.log(example)
           if (!(chosen.includes(example))) {
             chosen.push(example);
-            examples.push("<span class='fontsep'><a href='?text="+example+"'>"+example+"</a></span>")
+            examples.push("<span class='fontsep'><a href='?text="+example.replace("'","%27")+"'>"+example+"</a></span>")
           }
         }
         document.getElementById("ExamplesDiv").innerHTML = examples.join("");
