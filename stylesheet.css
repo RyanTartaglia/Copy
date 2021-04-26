@@ -160,7 +160,8 @@ table, th, td {
 }
 th, td {padding: 15px;text-align: left;}
 table {border-spacing: 0px;}
-tr:nth-child(even) {background-color: #75848a;}
+tr:nth-child(odd) {background-color: #c8c8c8;}
+tr:nth-child(even) {background-color: #adadad;}
 td {font-weight:normal;}
 
 b {font-weight:bold;}
