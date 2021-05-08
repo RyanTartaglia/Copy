@@ -17,3 +17,5 @@ Kiss Imprint: KI
 Rosie's Bandana: RB
 Beard: BE
 Lucky Hat: LH
+Bubble Tea: BT
+Flower Crown: FC
