@@ -166,3 +166,11 @@ td {font-weight:normal;}
 
 b {font-weight:bold;}
 i {font-style:italic;}
+
+.adbox {display:inline-block;width:49.25%;}
+@media only screen and (max-width: 850px) {
+    .adbox {
+      display: block;
+      width: 95.5%;
+    }
+  }
