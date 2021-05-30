@@ -131,3 +131,6 @@ https://c.r74n.com/eid
 https://c.r74n.com/mothers-day
 https://c.r74n.com/memorial-day
 https://c.r74n.com/proposals
+https://c.r74n.com/unicode/myanmar
+https://c.r74n.com/unicode/ethiopic
+https://c.r74n.com/unicode/javanese
