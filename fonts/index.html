@@ -53,13 +53,16 @@
         var ResultsDiv = document.getElementById("ResultsDiv");
         ResultsDiv.innerHTML = results.join("")
       }
+      function reversed(s){
+    return s.split("").reverse().join("");
+}
       function convert(Text,FontName){
         var newtext = "";
         if (!(fonts[FontName]["COMBINE"]==undefined)) {var formatter = "X"+fonts[FontName]["COMBINE"]}
         else if (!(fonts[FontName]["FORMAT"]==undefined)) {var formatter = fonts[FontName]["FORMAT"]}
         else {var formatter = undefined}
 
-        if (FontName=="reverse") {
+        if (FontName=="reversed") {
           newtext = reversed(Text);
         }
         else {

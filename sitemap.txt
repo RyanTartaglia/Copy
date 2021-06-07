@@ -134,3 +134,5 @@ https://c.r74n.com/proposals
 https://c.r74n.com/unicode/myanmar
 https://c.r74n.com/unicode/ethiopic
 https://c.r74n.com/unicode/javanese
+https://c.r74n.com/instagram/invisible-name
+https://c.r74n.com/instagram/invisible-comment
