@@ -167,6 +167,8 @@ td {font-weight:normal;}
 b {font-weight:bold;}
 i {font-style:italic;}
 
+.color {width:1em;height:1em;display:inline-block;border-radius:20px;vertical-align:middle;margin-bottom:0.2em}
+
 .adbox {display:inline-block;width:49.25%;}
 @media only screen and (max-width: 850px) {
     .adbox {

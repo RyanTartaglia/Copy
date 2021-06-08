@@ -136,3 +136,6 @@ https://c.r74n.com/unicode/ethiopic
 https://c.r74n.com/unicode/javanese
 https://c.r74n.com/instagram/invisible-name
 https://c.r74n.com/instagram/invisible-comment
+https://c.r74n.com/valorant/
+https://c.r74n.com/facebook/
+https://c.r74n.com/nonrgi
