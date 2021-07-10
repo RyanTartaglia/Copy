@@ -44,6 +44,8 @@
 
 <a href=".">Back to the Discord Portal</a><br><br>
 
+<strong>NEW</strong>: <a href="#Timestamps">In-Line Timestamp Formatting</a>
+
 <h3>Table of Contents</h3>
 1. <a href="#Basic">Basics (Bold, italics, etc.)</a><br>
 2. <a href="#Spoiler">Spoilers</a><br>
@@ -57,6 +59,7 @@
 7. <a href="#Quote">Quoting</a><br>
 8. <a href="#Protocol">Protocol Links</a><br>
 9. <a href="#DevLink">Invisible Development Link</a><br>
+10. <a href="#Timestamps">Timestamps</a><br>
 <br>
 For the full experience, <a href="https://support.discordapp.com/hc/article_attachments/115002742731/mceclip0.png">enable developer mode</a> on Discord.
 
@@ -276,11 +279,11 @@ In Discord, they do the same thing. However, to type them you need to surround o
 <div class="nopadblock"><img src="images/protocol.png" alt="Protocol link made using UwU faces"></div>
 <br><br>
 There’s also some links that can be used to open applications on whoever clicks’ computer. Here are some of them:<br><br>
-<steam://.> opens Steam<br>
-<discord://discordapp.com/channels/@me> opens your friends list<br>
-<http://.> opens the default browser<br>
-<tel://123> tries to call whatever number is 123 (at least on Mac)<br>
-Other things that work the same as <steam://.> include skype, teamspeak, spotify, <a target="_blank" href="https://en.wikipedia.org/wiki/List_of_URI_schemes">and many more</a>.
+&lt;steam://.&gt; opens Steam<br>
+&lt;discord://discordapp.com/channels/@me&gt; opens your friends list<br>
+&lt;http://.&gt; opens the default browser<br>
+&lt;tel://123&gt; tries to call whatever number is 123 (at least on Mac)<br>
+Other things that work the same as &lt;steam://.> include <code>skype</code>, <code>teamspeak</code>, <code>spotify</code>, <a target="_blank" href="https://en.wikipedia.org/wiki/List_of_URI_schemes">and many more</a>.
 
 <br><br><a class="bkmk" href="#DevLink" id="DevLink" title="Invisible Text Discord Formatting"><h3>Development Link</h3></a>
 <em>How to type invisible text on Discord</em><br><br>
@@ -306,9 +309,46 @@ Yes, it works…
 <br><br>
 This is used by Discord developers to give out test versions of Discord.
 
-
-
-
+<br><br><a class="bkmk" href="#Timestamps" id="Timestamps" title="In-Line Timestamp Text Discord Formatting"><h3>Timestamps</h3></a>
+<em>How to type times and dates on Discord</em><br><br>
+Timestamps can be typed in Discord messages to include a date, time, or countdown that will constantly be updated and in-sync with every user's timezone and date format settings.
+<br><br>
+The number that is used is a Unix Timestamp. They can be generated using online tools like <a href="https://www.unixtimestamp.com/" target="_blank">this one</a>.
+<br><br>
+Users will see the exact date and time when they hover over the timestamp.
+<br><br>
+<img src="images/timestamps.png" alt="A list of in-line time stamp formatting options on Discord" height="300px">
+<br><br>
+<table style="width:100%">
+  <tr>
+    <td>&lt;t:123456789:d&gt;</td>
+    <td>Month/Day/Year</td>
+  </tr>
+  <tr>
+    <td>&lt;t:123456789:f&gt;</td>
+    <td>Month Day, Year Time</td>
+  </tr>
+  <tr>
+    <td>&lt;t:123456789:t&gt;</td>
+    <td>Time</td>
+  </tr>
+  <tr>
+    <td>&lt;t:123456789:D&gt;</td>
+    <td>Month Day, Year</td>
+  </tr>
+  <tr>
+    <td>&lt;t:123456789:F&gt;</td>
+    <td>Weekday, Month Day, Year Time</td>
+  </tr>
+  <tr>
+    <td>&lt;t:123456789:R&gt;</td>
+    <td>Time since</td>
+  </tr>
+  <tr>
+    <td>&lt;t:123456789:T&gt;</td>
+    <td>Hours:Minutes:Seconds</td>
+  </tr>
+</table>
 
 
 
